@@ -12,9 +12,8 @@ public extension Image {
         Image(name, bundle: .module)
     }
 }
-
 extension ImageResource {
-    /// The "Share" asset catalog image resource.
-    public static let iconShare: ImageResource = .backgroundGradient
-    
+    public enum Icons {
+        public static let appIcon = ImageResource(name: "AppIcon", bundle: .module)
+    }
 }
