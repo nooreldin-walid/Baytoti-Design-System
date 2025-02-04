@@ -18,6 +18,11 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "Baytoti-Design-System",
+            dependencies: [
+                        // ...other dependencies...
+                        "SwiftGen"
+                    ],
+            sources: ["Sources", "Generated"],
             resources: [.process("Media.xcassets")]
         ),
 
