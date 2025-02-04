@@ -1,0 +1,16 @@
+input_dir: Resources
+output_dir: Generated
+
+strings:
+  inputs: Resources/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Generated/Strings.swift
+
+xcassets:
+  inputs: Resources/Media.xcassets
+  outputs:
+    templateName: swift5
+    output: Generated/Assets.swift
+
+# Add other configurations as needed

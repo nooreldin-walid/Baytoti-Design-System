@@ -12,6 +12,7 @@ let package = Package(
             name: "Baytoti-Design-System",
             targets: ["Baytoti-Design-System"]),
     ],
+    dependencies: [.package(url: "https://github.com/SwiftGen/SwiftGen.git", from: "6.0.0")],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
