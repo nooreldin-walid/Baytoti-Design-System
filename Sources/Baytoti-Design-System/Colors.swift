@@ -24,4 +24,6 @@ public enum Colors {
     public static let secondaryBlue = Color(red: 0, green: 0.45, blue: 0.78)
     public static let secondaryPurple = Color(red: 0.45, green: 0.14, blue: 0.42)
     public static let secondaryGreen = Color(red: 0, green: 0.52, blue: 0.25)
+    public static let surfaceLightGreen: Color = Color(red: 0.9, green: 0.95, blue: 0.93)
+    public static let surfaceLightOrange: Color = Color(red: 1, green: 0.95, blue: 0.89)
 }
